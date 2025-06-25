@@ -1,7 +1,7 @@
 {
   "name": "author-management",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto gerenciamento de autores, MVC com Jest e Nodemon",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -23,11 +23,18 @@
   },
   "homepage": "https://github.com/UNIFG-PE/author-management#readme",
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.3",
+    "@types/uuid": "^10.0.0",
     "jest": "^30.0.2",
     "nodemon": "^3.1.10",
+    "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
   }
 }
