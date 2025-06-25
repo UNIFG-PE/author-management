@@ -66,4 +66,4 @@ describe('isPasswordComplex', () => {
       expect(isPasswordComplex('')).toBe(false);
     });
 
-  });
+});
